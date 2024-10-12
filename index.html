@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Expense Splitter</h1>
+
+        <div class="input-group">
+            <label for="totalAmount">Total Bill Amount:</label>
+            <input type="number" id="totalAmount" placeholder="Enter the total amount" min="0" step="0.01">
+        </div>
+
+        <div class="input-group">
+            <label for="currency">Currency:</label>
+            <select id="currency">
+                <option value="" disabled selected>Select your currency</option> <!-- Placeholder-like option -->
+                <option value="$">USD ($)</option>
+                <option value="€">Euro (€)</option>
+                <option value="£">GBP (£)</option>
+                <option value="₹">INR (₹)</option>
+                <option value="¥">JPY (¥)</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="numPeople">Number of People:</label>
+            <input type="number" id="numPeople" placeholder="Enter number of people" min="1">
+        </div>
+
+        <button onclick="splitExpense()">Split</button>
+
+        <div class="result" id="result">
+            <!-- Result -->
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

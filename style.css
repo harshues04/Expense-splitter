@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(240, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f8e9e4;
+    padding: 30px;
+    color: #b27463;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #b27463;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 200px;
+    color: #b27463;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: #938581;
+}
+
+input::placeholder {
+    color: #f5ded7;
+    opacity: 1;
+}
+
+select {
+    color: #f5ded7; /* Applies the color to the selected option */
+}
+
+select option {
+    color: #f5ded7; /* Applies the color to all options */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #df917c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #eec5b9;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #85574a;
+}
