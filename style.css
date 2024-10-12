@@ -58,11 +58,11 @@ input::placeholder {
 }
 
 select {
-    color: #f5ded7; /* Applies the color to the selected option */
+    color: #f5ded7; 
 }
 
 select option {
-    color: #f5ded7; /* Applies the color to all options */
+    color: #f5ded7; 
 }
 
 button {
