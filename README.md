@@ -1,2 +1,2 @@
-# Expense-splitter
-A frontend project created using HTML/CSS and JS
+## Expense-splitter
+A frontend project created using HTML, CSS and JS.
